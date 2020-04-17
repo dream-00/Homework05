@@ -1,0 +1,56 @@
+Language model created by QuickLM on Fri Apr 17 06:21:33 EDT 2020
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 3 sentences and 10 words
+
+\data\
+ngram 1=10
+ngram 2=11
+ngram 3=12
+
+\1-grams:
+-1.2041 </s> -0.3010
+-1.2041 <s> -0.2730
+-1.6812 FIRST -0.2730
+-1.2041 MOVE -0.2730
+-1.2041 PLEASE -0.2730
+-1.2041 POINT -0.2730
+-1.6812 SECOND -0.2730
+-1.2041 THE -0.2730
+-1.6812 THIRD -0.2730
+-1.2041 TO -0.2730
+
+\2-grams:
+-0.3010 <s> PLEASE 0.0000
+-0.3010 FIRST POINT 0.0000
+-0.3010 MOVE TO 0.0000
+-0.3010 PLEASE MOVE 0.0000
+-0.3010 POINT </s> -0.3010
+-0.3010 SECOND POINT 0.0000
+-0.7782 THE FIRST 0.0000
+-0.7782 THE SECOND 0.0000
+-0.7782 THE THIRD 0.0000
+-0.3010 THIRD POINT 0.0000
+-0.3010 TO THE 0.0000
+
+\3-grams:
+-0.3010 <s> PLEASE MOVE
+-0.3010 FIRST POINT </s>
+-0.3010 MOVE TO THE
+-0.3010 PLEASE MOVE TO
+-0.3010 SECOND POINT </s>
+-0.3010 THE FIRST POINT
+-0.3010 THE SECOND POINT
+-0.3010 THE THIRD POINT
+-0.3010 THIRD POINT </s>
+-0.7782 TO THE FIRST
+-0.7782 TO THE SECOND
+-0.7782 TO THE THIRD
+
+\end\
